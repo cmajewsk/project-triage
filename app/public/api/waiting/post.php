@@ -32,3 +32,6 @@ header('HTTP/1.1 303 See Other');
 //303 status code says redirect with a Get
 header('Location: ../waiting/');
 //tells you where the other place is you're sending it to
+// Step 4: Output
+header('HTTP/1.1 303 See Other');
+header('Location: ../waiting/');
