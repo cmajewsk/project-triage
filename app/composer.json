@@ -3,9 +3,11 @@
     "description": "An in-class example project",
     "license": "private",
     "authors": [{
-        "name": "Tom Gregory"
+        "name": "Claire Majewski"
     }],
-    "require": {},
+    "require": {
+      "ramsey/uuid": "^3.8"
+    },
     "autoload": {
         "classmap": ["class/DbConnection.php"]
     }
